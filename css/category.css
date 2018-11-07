@@ -1,0 +1,138 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  max-width: 680px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.header{
+  max-width: 680px;
+  min-width: 320px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  padding: 0px 50px ;
+  background-image: linear-gradient(to top,#ccc,#fff);
+
+}
+.header .icon_left,
+.header .icon_right
+{ 
+   padding: 14px;
+   position: absolute;
+   display: block;
+   width: 50px;
+   height: 50px;
+   top: 0px;
+   /* 设置背景显示的区域 */
+   background-clip: content-box;
+   /* 设置背景起始的左顶点  从内容部分开始 */
+   background-origin: content-box;
+}
+.header .icon_left{
+   left: 0px ;
+   background-position:-20px 0px;
+
+}
+.header .icon_right{
+  right: 0px;
+  background-position: -60px 0;
+}
+.header .info{
+  width: 100%;
+  margin-top: 5px;  
+  height: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+
+/* 内容部分 */
+.content{  
+  height: 100%;
+}
+.content .content_left{
+  float: left;
+  height: 100%;
+  width: 90px;
+  overflow: hidden;
+}
+.content .content_left li{ 
+  height: 50px;
+  line-height:50px;
+  text-align: center;
+  background-color: pink;
+  border-right:1px solid red;
+  border-bottom: 1px solid red;
+}
+.content .content_left ul{
+
+}
+.content .content_left li a{
+   display: block;
+   color:black;
+}
+.content .content_left li.now{
+  background-color: #fff;
+  border-right: none;
+  color: red;
+}
+
+/* 推荐产品 */
+.content_right {
+  overflow: hidden;
+}
+.content_right .img_box{
+  padding: 10px;
+}
+.content_right .banner{
+  display: block;
+  width: 100%;
+
+}
+ .content .content_right{
+   overflow: hidden;  
+   height: 100%;
+   background-color: #fff;
+
+ 
+ 
+ 
+  }
+ .content .content_right .con_box{
+  width: 100%;
+ }
+ 
+ .content .content_right .right_box{
+    padding-left: 10px;
+ }
+ .content .content_right .right_box h3{
+   font-weight: bold;
+   color: black;
+   font-size: 20px;
+ }
+ .content .content_right .right_box ul li{
+   float: left;
+   width: 33.3%;
+   /* padding: 10px; */
+
+ }
+ .content .content_right .right_box ul a{
+   display: block;
+ }
+ .content .content_right .right_box ul li img{
+   margin: 0 auto;
+   width: 60px;
+   height: 60px;
+ }
+ .content .content_right .right_box ul li p{
+   text-align: center;
+ }

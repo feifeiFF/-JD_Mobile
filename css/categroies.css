@@ -1,0 +1,136 @@
+.container{
+   width: 100%;
+   min-width: 320px;
+   max-width: 640px;
+   height: 1000px;
+   background-color: lightblue;
+}
+.jd_header{
+  position: relative;
+   width: 100%;
+   height:44px;
+   background-image: linear-gradient(to top ,#ccc,#fff);
+   text-align: center;
+   line-height: 44px;
+}
+.jd_header .jd_back{
+  position: absolute;
+  left: 7px;
+  top: 10px;
+  width: 20px;
+  height: 22px;
+  background-position:-22px 0px ;
+}
+.jd_header .title{
+   padding: 0px 44px;
+   height: 44px;
+}
+.jd_header .title h3{
+  font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+   font-weight: bold;
+}
+.jd_header .menu{
+   width: 22px;
+   height: 22px;
+   position: absolute;
+   right: 7px;
+   top: 10px;
+   background-position:-59px 0px ;
+}
+.jd_safe{
+   text-align: center;
+   width: 100%;
+   height: 34px;
+   line-height: 34px;
+   background-color: #fff;
+   border-bottom: 1px solid #ccc;
+}
+.jd_safe p{
+  margin: 0 auto;
+  width: 270px;
+   position: relative;
+   padding-left: 20px;
+}
+.jd_safe p i.safe{
+  position: absolute;
+  left: 10px;
+  top:7px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+ 
+}
+.jd_self_support{
+  box-sizing: border-box;
+  padding-left: 7px;
+  padding-top: 7px;
+  padding-right: 7px;
+   margin-top: 5px;
+   width: 100%;
+   height:34px;
+   background-color: #fff;
+
+   border: 1px solid #ccc;
+}
+.jd_self_support .all{
+   width: 24px;
+   height: 24px;
+   background-position: -178px -69px;
+}
+.jd_self_support .info{
+   color: #f23030;
+}
+.jd_goods{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-left:20px;
+}
+.jd_goods .select{
+   position: absolute;
+   top: 7px;
+   left: 7px;
+   width: 20px;
+   height: 20px;
+   background-position: -178px -90px;
+}
+.jd_goods .product{
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+.jd_goods .info {
+   position: absolute;
+   left: 120px;
+   width: 78%; 
+   top: 10px;  
+}
+.jd_goods .info span{
+   border: 1px solid #ccc;
+   margin-top: 5px;
+    float: left;
+    width: 38px;
+    height: 32px;
+    margin-right: -1px;
+    text-align: center;
+    line-height: 32px;
+}
+.jd_goods .info span input[type="number"]{
+  text-align: center;
+   width: 100%;
+   height: 100%;
+}
+.jd_goods .info .del_box {
+   width: 22px;
+   height: 22px;
+   position: absolute;
+   background-color: pink;
+   right: 10px;
+   bottom: 7px;  
+  }
+
+

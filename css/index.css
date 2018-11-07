@@ -1,0 +1,290 @@
+ /* 京东包含框 */
+ .container {
+   width: 100%;
+   /* background-color: lightblue; */
+   max-width: 640px;
+   min-width: 320px;
+   margin: 0 auto;
+ }
+
+ .jd_header {
+   background-color: rgba(222, 24, 27, 0.1);
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+   height: 40px;
+   max-width: 640px;
+   min-width: 320px;
+   padding: 0px 50px 0px 70px;
+
+ }
+
+ .jd_header .jd_logo {
+   position: absolute;
+   width: 80px;
+   height: 40px;
+   left: 0px;
+   top: 0px;
+ }
+
+ .jd_header .jd_logo .logo {   
+   position: absolute;
+   left: 25px;  
+   top: 7px;
+   width:58px;
+   height: 23px;
+   display:block; 
+   background-position: 0 -108px;
+ }
+
+
+ .jd_header .jd_login {
+   position: absolute;
+   width: 50px;
+   height: 40px;
+   right: 0px;
+   top: 0px;
+
+ }
+
+ .jd_header .jd_login a {
+   display: block;
+   width: 100%;
+   height: 100%;
+   line-height: 40px;
+   text-align: center;
+   color: #fff;
+ }
+
+ .jd_header .jd_search {
+   padding-left: 18px;
+   position: relative;
+   height: 40px;
+ }
+
+ .jd_header .jd_search input {
+   text-indent: 3em;
+   width: 100%;
+   height: 30px;
+   margin-top: 4px;
+   border-radius: 15px;
+ }
+
+ .jd_header .jd_search .sou {
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-position: -60px -110px;
+   left: 20px;
+   top: 11px;
+ }
+
+ /* 京东轮播图 */
+ .jd_banner {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+ }
+
+ .jd_banner ul {
+   width: 1000%;
+   transform: translateX(-10%);
+ }
+
+ .jd_banner ul li {
+   float: left;
+   width: 10%;
+ }
+ .jd_banner ol {
+   position: absolute;  
+   left: 50%;
+   bottom: 10px;
+   transform: translateX(-50%);
+ }
+.jd_banner ol li{
+  width: 7px;
+  height: 7px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  float: left;
+}
+.jd_banner ol li.now{
+  background-color: snow;
+  box-shadow: 0px 0px 0px 2px 3px  snow;
+}
+ /* 京东导航 */
+ .jd_nav {
+   width: 100%;
+ }
+
+ .jd_nav ul li {
+   float: left;
+   width: 20%;
+ }
+
+ .jd_nav ul li a {
+   display: block;
+ }
+
+ .jd_nav ul li a img {
+   display: block;
+   width: 40px;
+   height: 40px;
+   margin: 10px auto;
+ }
+
+ .jd_nav ul li p {
+   width: 100%;
+   text-align: center;
+ }
+
+
+ /* 京东快报 */
+ .jd_news {
+   margin: 10px auto;
+   height: 30px;
+   width: 95%;
+   border-radius: 5px;
+   background-color: #fff;
+   overflow: hidden;
+ }
+ .jd_news .jd_news_logo img{
+   width: 73px;
+   height: 16px;
+   margin-top: 7px;
+   margin-left: 5px;
+ }
+
+ .jd_news .info ul li{
+   line-height: 30px;
+     
+ }
+ .jd_news .more a{
+   display: inline-block;
+   line-height: 30px;
+   margin-right: 5px;
+ }
+
+
+ /* 京东秒杀  */
+ .jd_secKill{
+   width: 100%;
+ }
+ .jd_secKill .jd_secKill_titlt{
+   box-sizing: border-box;
+   position: relative;
+   width: 100%;
+   height: 30px;
+   background-color: #fff;
+ }
+ .jd_secKill .jd_secKill_titlt i{
+   position: absolute;
+   top:4px;
+   left: 5px;   
+   display: inline-block;
+   width: 21px ;
+   height: 21px;
+  
+   background-position: -83px -109px;
+ }
+ .jd_secKill .jd_secKill_titlt .kill_info span{
+   padding-left: 30px;
+   display: inline-block;
+   height: 30px;
+   line-height: 30px;
+  
+ }
+
+ .jd_secKill .jd_secKill_titlt .more{
+   height: 30px;
+   line-height: 30px;
+   padding-right: 5px;
+
+ }
+ 
+ .jd_secKill .jd_secKill_titlt .time span{
+    float: left;
+    padding: 1px 1px;
+    background-color: #000;
+    border-radius: 6px;
+    margin-left: 7px;
+    margin-top: 3px;
+    color: #fff;
+ }
+ .jd_secKill .jd_secKill_titlt .time span:nth-child(even){
+   background-color: #fff;
+   color: #000000;   
+ }
+ .jd_secKill .jd_secKill_content{
+   overflow: hidden;
+   width: 100%;
+   height: 120px;
+ }
+ .jd_secKill .jd_secKill_content ul{
+    width: 1000px;
+    background-color: #fff;
+    
+ }
+ .jd_secKill .jd_secKill_content ul li{
+   float: left;
+   width: 87px;   
+   border-right: 1px solid #ccc;
+ }
+ .jd_secKill .jd_secKill_content ul li:last-child{
+   border-right: none;
+ }
+ .jd_secKill .jd_secKill_content ul li a{
+    display: block;
+    width: 60px;
+    height: 120px;
+    padding-top: 7px;
+    margin: 0 auto;
+
+ }
+ .jd_secKill .jd_secKill_content ul li p{
+   text-align: center; 
+ }
+ .jd_secKill .jd_secKill_content ul li p.new{
+
+   color:rgba(222,24,27,0.9);
+ }
+ .jd_secKill .jd_secKill_content ul li p.old{
+   text-decoration: line-through;
+ }
+
+
+ /* 京东主会场 */
+ .jd_major{   
+   width: 100%;
+ }
+ .jd_major div{
+   float: left;
+   width: 33.3%;
+
+ }
+ .jd_major div a{
+   display: block;
+ }
+
+
+ /* 京东产品  */
+ .jd_product{
+   width: 100%;
+
+ }
+ .jd_product ul li{
+   float: left;
+   width: 100%;
+ }
+ .jd_product ul li a{
+   float: left;
+  display: block;
+  width: 33.3%;
+   background-color: blue;
+ }
+ .jd_product ul li:nth-child(2) a,
+ .jd_product ul li:nth-child(3) a{
+   width: 50%;
+ }
